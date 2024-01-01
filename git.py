@@ -32,7 +32,7 @@ while True:
             os.system(f'git add . & git commit -m "{message}" & git push')
             print(f'message:{message}')
         else:
-            break
+            exit()
     except Exception as e:
         if isinstance(e, ValueError):
             os.system('git status')
