@@ -29,7 +29,9 @@ while True:
             os.system('git pull')
         elif choice == 5:
             message = input('Enter your message: ')
-            os.system(f'git add . & git commit -m "{message}" & git push')
+            os.system(f'git add .')
+            os.system(f'git commit -m "{message}"')
+            os.system(f'git push')
             print(f'message:{message}')
         else:
             exit()
