@@ -8,6 +8,7 @@ def show():
     print('3     ---> git push')
     print('4     ---> git pull')
     print('5     ---> git add . & git commit -m "message" & git push')
+    print('6     ---> git log')
     print('else  ---> exit')
     print('---------------------------------------------------------')
 
@@ -33,6 +34,8 @@ while True:
             os.system(f'git commit -m "{message}"')
             os.system(f'git push')
             print(f'message:{message}')
+        elif choice == 6:
+            os.system('git glog')
         else:
             exit()
     except Exception as e:
