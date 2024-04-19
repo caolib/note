@@ -10,8 +10,7 @@
 
 **示例**
 
-> https://htmlpreview.github.io/?https://github.com/caolib/note/blob/master/markdown从入门到上天.html
-
+> https://htmlpreview.github.io/?https://github.com/caolib/note/blob/master/markdown.html
 
 
 
